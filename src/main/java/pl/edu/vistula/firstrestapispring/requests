@@ -1,0 +1,10 @@
+### CREATE PRODUCT
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "Vistula Product"
+}
+
+### GET ALL PRODUCTS
+GET http://localhost:8080/products
